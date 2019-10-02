@@ -1,11 +1,16 @@
 {
   "name": "discord-nhentainumbers",
   "version": "1.0.0",
-  "description": "Discord bot for nHentai numbers",
+  "description": "NumberGenie is a simple Discord bot for previews of nHentai links",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "nhentai-api-js": "^1.1.2",
+    "nodemon": "^1.19.3"
+  }
 }

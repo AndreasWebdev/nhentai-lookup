@@ -8,7 +8,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`nHentai Number Genie started under user ${client.user.tag}!`);
-  client.user.setPresence({ game: { name: 'n! <NUMBER>' }, status: 'online'});
+  client.user.setPresence({ game: { name: '!n <NUMBER>' }, status: 'online'});
 });
 
 client.on('message', msg => {

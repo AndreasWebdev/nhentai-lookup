@@ -1,5 +1,5 @@
-# nHentai Number Genie
- Discord Bot for those nasty nHentai Numbers
+# nHentai Lookup
+ nHentai Lookup allows you to search and preview nHentai doujins on Discord
 
 # Setup
 1. Clone the repo
